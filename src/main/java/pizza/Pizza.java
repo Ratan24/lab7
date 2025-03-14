@@ -5,7 +5,7 @@ import betterpizza.ObservablePizza;
 /**
  * This class represents the operations offered by a single pizza.
  */
-public interface Pizza {
+public interface Pizza extends ObservablePizza{
 
   /**
    * Set the type of crust for this pizza.
